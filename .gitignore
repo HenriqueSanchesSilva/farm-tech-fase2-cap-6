@@ -1,0 +1,11 @@
+data/insumos.json
+data/movimentacoes.txt
+
+.env
+
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
