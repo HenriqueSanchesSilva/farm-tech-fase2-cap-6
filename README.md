@@ -137,17 +137,6 @@ insumos (id, nome, categoria, unidade, quantidade, preco, fornecedor,
 movimentacoes (data_hora, tipo, descricao)
 ```
 
-## 🗃 Histórico de lançamentos
-
-- 14/04/2026
-  - Dashboard melhorado: distribuição de status, saúde do estoque, fornecedores distintos, tipo de conexão.
-  - Alertas exibem o limiar que disparou o alerta.
-  - Revisão geral: cursor leaks corrigidos, validação de ordem dos limiares, truncamento de nomes longos na listagem, edição de unidade na atualização.
-  - Integração completa com Oracle (conexão, DDL, CRUD, dupla persistência).
-  - Limiares de estoque por produto (crítico, baixo, ideal) com valores padrão.
-- 02/04/2026
-  - Versão inicial com CRUD local de insumos, movimentações e dashboard e adequação ao template da FIAP.
-
 ## 📋 Licença
 
 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">FIAP</a> está licenciado sob <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
