@@ -82,7 +82,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 1. Clonar o repositório:
 
 ```bash
-git clone [<url-do-repositorio>](https://github.com/HenriqueSanchesSilva/farm-tech-fase2-cap-6.git)
+git clone https://github.com/HenriqueSanchesSilva/farm-tech-fase2-cap-6.git
 ```
 
 2. Acessar a pasta do projeto:
